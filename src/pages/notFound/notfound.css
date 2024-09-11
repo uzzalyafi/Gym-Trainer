@@ -1,0 +1,8 @@
+.notfound_container{
+  text-align: center;
+  padding-top: 7rem;
+  color: var(--color-gray-100);
+}
+.notfound_container h2{
+  margin-bottom: 2rem;
+}

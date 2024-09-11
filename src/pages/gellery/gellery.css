@@ -1,0 +1,25 @@
+.gellery_container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.gellery_container .gellery_img{
+  border: 1rem solid transparent;
+  transition: var(--transition);
+}
+.gellery_container .gellery_img:hover{
+  border-color: var(--color-gray-500);
+}
+
+/* media screen */
+@media screen and (max-width: 1024px) {
+  .gellery_container{
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  .gellery_container{
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+}

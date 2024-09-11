@@ -1,0 +1,52 @@
+.trainers_container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+.card.trainer{
+  padding: 2rem;
+}
+.traner_img{
+  border-radius: 0 2rem;
+  overflow: hidden;
+}
+.trainer h3{
+  margin-top: 1.2rem;
+}
+.trainer p{
+  margin-top: 0.5rem;
+}
+.trainer_socials{
+  display: flex;
+  margin-top: 0.8rem;
+  gap: 0.8rem;
+  justify-content: center;
+  align-items: center;
+}
+.trainer_socials a{
+  background-color: var(--color-gray-600);
+  font-size: 1rem;
+  padding: 0.8rem;
+  border-radius: 0.6rem;
+  display: flex;
+  color: var(--color-gray-100);
+  transition: var(--transition);
+}
+.trainer:hover a{
+  background-color: var(--color-gray-500);
+}
+
+/* media screen */
+
+@media screen and (max-width: 1024px) {
+  .trainers_container{
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  .trainers_container{
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+}
