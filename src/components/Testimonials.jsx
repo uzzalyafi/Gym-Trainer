@@ -2,7 +2,7 @@ import {testimonials} from "../data.js"
 import { FaQuoteLeft } from "react-icons/fa";
 import { HiChevronLeft, HiChevronRight } from "react-icons/hi"
 import SectionHead from "./SectionHead"
-import Card from "../ui/card"
+import Card from "../ui/Card.jsx"
 import { useState } from "react"
 
 

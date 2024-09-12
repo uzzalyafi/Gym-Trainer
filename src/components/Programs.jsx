@@ -4,8 +4,9 @@ import { programs } from "../data.js";
 import { Link } from "react-router-dom";
 import { SiOpenaigym } from "react-icons/si";
 import { AiFillCaretRight } from "react-icons/ai";
+import Card from "../ui/Card.jsx";
 
-import Card from "../ui/card.jsx";
+
 
 const Programs = () => {
   return (
